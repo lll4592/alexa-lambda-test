@@ -13,10 +13,11 @@ app.intent('GetHoroscope', {
 	'utterances': [
 		'what is the horoscope for {Sign}',
 		'what will the horoscope for {Sign} be on {Date}',
-		'get me my horoscope',
-		'{Sign}'
 	]
 }, function(request, response) {
+	const sign = request.slot('Sign');
+	const date = request.slot('Date');
+	console.log(sign, date);
 	response.say('Hi~~').send();
 	return true;
 });

@@ -3,6 +3,7 @@ const event = require('./event.json');
 
 const context = {
 	succeed: function(result) {
+		console.log(result);
 		console.log('succeed');
 	},
 	fail: function(e) {
