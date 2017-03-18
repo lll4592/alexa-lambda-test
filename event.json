@@ -1,0 +1,32 @@
+{
+  "session": {
+    "sessionId": "SessionId.bd8fb668-08b4-4e6b-b07e-0de55a64895e",
+    "application": {
+      "applicationId": "amzn1.ask.skill.2cbcbdcb-e9b7-41fd-8587-06253705b272"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.AFIOSTK556GJX2ANGT5L4YUDMUCG6QJKBPQV7SS4RRBQYCR3GNAUXLQEY6NZ7JGLMC3HRBTBLUWVG5DNNPUZ33B7MGUXRAUXJB74UJJEZPJQ7P4GQJE7MSDNDWMVTRHKUFIUEJCZROSRYOBYCH2DDEWRUOE6UGHVXNEPYPNJEVDIEE2TPXV5JS7VDUA6BUQIXTTWW2XKSZYOY3Y"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.bb312f1d-fb57-4ad9-93f4-73b74cc57b27",
+    "locale": "en-US",
+    "timestamp": "2017-03-18T07:42:05Z",
+    "intent": {
+      "name": "GetHoroscope",
+      "slots": {
+        "Sign": {
+          "name": "Sign",
+          "value": "Aries"
+        },
+        "Date": {
+          "name": "Date"
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
